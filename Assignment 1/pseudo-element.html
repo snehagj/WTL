@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Element Example</title>
+    <style>
+        .title::before {
+            content: "@ ";
+            color: #ff6347;
+        }
+
+        .title::after {
+            content: " @";
+            color: #ff6347;
+        }
+
+        .content::before {
+            content: "“";
+            font-size: 20px;
+            color: #555;
+        }
+
+        .content::after {
+            content: "”";
+            font-size: 20px;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="title">Welcome to My Page</h2>
+    <p class="content">This is Web Technology Laboratory.</p>
+    
+</body>
+</html>

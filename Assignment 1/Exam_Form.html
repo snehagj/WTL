@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Form</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #dc9e97dc;
+            margin: 0;
+        }
+        .form-container {
+            background: white;
+            padding: 50px;
+            border-radius: 10px;
+            
+            width: 450px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        .form-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 25px;
+        }
+        label {
+            width: 100px;
+            text-align: right;
+            margin-right: 10px;
+        }
+        input, select {
+            flex: 1;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        h2{
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Exam Form</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="rollno">Roll No.:</label>
+                <input type="text" id="rollno" name="rollno" required>
+            </div>
+            <div class="form-group">
+                <label for="div">Division:</label>
+                <select id="div" name="div" required>
+                    <option value="">Select Division</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="uniqueid">Unique ID:</label>
+                <input type="text" id="uniqueid" name="uniqueid" required>
+            </div>
+            <div class="form-group">
+                <label for="branch">Branch:</label>
+                <input type="text" id="branch" name="branch" required>
+            </div>
+            <div class="form-group">
+                <label for="semester">Semester:</label>
+                <input type="text" id="semester" name="semester" required>
+            </div>
+           
+           
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

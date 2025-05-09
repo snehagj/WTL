@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h2>Exam Form</h2>
+    <form>
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="rollno">Roll no.</label>
+        <input type="text" id="rollno" name="rollno" required><br><br>
+        <label for="div">Division:</label>
+                <select id="div" name="div" required>
+                    <option value="">Select</option>
+                    <option value="A">A</option>
+                    <option value="B">B</option>
+                    <option value="C">C</option>
+                </select>
+                <br><br>
+        <label for="id">Unique ID:</label>
+        <input type="text" id="id" name="id" required><br><br>
+        
+        <label for="exam">Select Exam:</label>
+        <select id="exam" name="exam">
+            <option value="">Select</option>
+            <option value="ipr">IPR</option>
+            <option value="env">Environment</option>
+            <option value="tc">TC</option>
+        </select><br><br>
+        
+        <label>Mode of Exam:</label><br>
+        <input type="radio" id="online" name="mode" value="online">
+        <label for="online">Online</label><br>
+        <input type="radio" id="offline" name="mode" value="offline">
+        <label for="offline">Offline</label><br><br>
+        
+        <label>Preferred Time Slots:</label><br>
+        <input type="checkbox" id="morning" name="timeslot" value="morning">
+        <label for="morning">Morning (9 AM - 12 PM)</label><br>
+        <input type="checkbox" id="afternoon" name="timeslot" value="afternoon">
+        <label for="afternoon">Afternoon (1 PM - 4 PM)</label><br>
+        <input type="checkbox" id="evening" name="timeslot" value="evening">
+        <label for="evening">Evening (5 PM - 8 PM)</label><br><br>
+        
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
