@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3B455E; /* Dark background color */
+    color: #e0e0e0; /* Light text color */
+}
+
+header {
+    background: #AABDDE; /* Darker header background */
+    color: #fff;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px #3B455E(0, 0, 0, 0.5);
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #AABDDE; /* Highlight color */
+}
+
+section {
+    padding: 20px 0;
+    background-color: #AABDDE; /* Darker section background */
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px#3B455E(0, 0, 0, 0.5);
+}
+
+.profile-photo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.profile-photo img {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #333;
+}
+
+.box {
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #AABDDE; /* Slightly lighter box background */
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px #3B455E(0, 0, 0, 0.5);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #AABDDE; /* Slightly lighter input background */
+    color: #e0e0e0;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #AABDDE; /* Highlight color */
+}
+
+footer {
+    background: #AABDDE; /* Darker footer background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+}
