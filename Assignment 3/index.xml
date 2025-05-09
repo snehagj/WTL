@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="students.css"?>
+<students>
+    <student>
+        <name>Sneha</name>
+        <age>20</age>
+        <course>Computer Science and Engineering</course>
+    </student>
+</students>

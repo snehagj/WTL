@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<employees>
+  <employee>
+    <id>101</id>
+    <name>Amit Sharma</name>
+    <position>Software Engineer</position>
+    <department>Development</department>
+    <salary>60000</salary>
+  </employee>
+
+  <employee>
+    <id>102</id>
+    <name>Neha Verma</name>
+    <position>HR Manager</position>
+    <department>Human Resources</department>
+    <salary>55000</salary>
+  </employee>
+
+  <employee>
+    <id>103</id>
+    <name>Rahul Mehta</name>
+    <position>Data Analyst</position>
+    <department>Analytics</department>
+    <salary>50000</salary>
+  </employee>
+
+  <employee>
+    <id>104</id>
+    <name>Sneha Gupta</name>
+    <position>UX Designer</position>
+    <department>Design</department>
+    <salary>48000</salary>
+  </employee>
+</employees>

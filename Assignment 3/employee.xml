@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<employees>
+  <employee>
+    <id>101</id>
+    <name>Rahul</name>
+    <age>30</age>
+    <department>IT</department>
+    <position>Software Engineer</position>
+    <salary>70000</salary>
+  </employee>
+  <employee>
+    <id>102</id>
+    <name>pooja</name>
+    <age>28</age>
+    <department>HR</department>
+    <position>HR Manager</position>
+    <salary>65000</salary>
+  </employee>
+  <employee>
+    <id>103</id>
+    <name>Shravani</name>
+    <age>35</age>
+    <department>Finance</department>
+    <position>Accountant</position>
+    <salary>72000</salary>
+  </employee>
+</employees>

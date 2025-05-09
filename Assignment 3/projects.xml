@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="member.css"?>
+
+<members>
+<title>Project Details</title>
+<member>
+<leader>
+<info>
+<name>Name - Sneha Jadhav(Group Leader)</name>
+<roll_no>Roll no. - 49</roll_no>
+<strenght>UI/UX and Frontend </strenght>
+<cgpa>CGPA - 8</cgpa>
+<role>Role - Designer and Developer</role>
+</info>
+</leader>
+<info>
+<name>Name - Shravani Kumbhar(Team Member)</name>
+<roll_no>Roll no. - 14</roll_no>
+<strenght>Strenght - Backend</strenght>
+<cgpa>CGPA - 8.5</cgpa>
+<role>Role - Backend Developer</role>
+</info>
+<info>
+<name>Name -Nandini Babar(Team Member)</name>
+<roll_no>Roll no. - 25</roll_no>
+<strenght>Strenght - MySQL</strenght>
+<cgpa>CGPA - 8.2</cgpa>
+<role>Role - Database Manager</role>
+</info>
+<info>
+<name>Name - Vaishnavi Bhosale(Team Member)</name>
+<roll_no>Roll no. - 27</roll_no>
+<strenght>Strenght - Frontend</strenght>
+<cgpa>CGPA - 8</cgpa>
+<role>Role - Frontend Developer</role>
+</info>
+</member>
+</members>
