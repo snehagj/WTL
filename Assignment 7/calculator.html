@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+</head>
+<body>
+  <h2>Simple Calculator</h2>
+  
+
+  <script>
+    let continueCalc = true;
+
+    while (continueCalc) {
+      // Get user input (as strings)
+      let num1 = prompt("Enter the first number:");
+      let num2 = prompt("Enter the second number:");
+      let operator = prompt("Choose operation: +, -, *, /, %");
+
+      // Convert to numbers (from string input)
+      num1 = parseFloat(num1);
+      num2 = parseFloat(num2);
+
+      let result;
+
+      // Use switch for operations
+      switch (operator) {
+        case '+':
+          result = num1 + num2;
+          break;
+        case '-':
+          result = num1 - num2;
+          break;
+        case '*':
+          result = num1 * num2;
+          break;
+        case '/':
+          if (num2 !== 0) {
+            result = num1 / num2;
+          } else {
+            result = "Error: Division by zero!";
+          }
+          break;
+        case '%':
+          result = num1 % num2;
+          break;
+        default:
+          result = "Invalid operator!";
+      }
+
+      alert("Result: " + result);
+
+      // Ask if user wants to continue
+      let choice = prompt("Do you want to calculate again? (yes/no):");
+      if (choice.toLowerCase() !== "yes") {
+        continueCalc = false;
+        alert("Thanks for using the calculator!");
+      }
+    }
+  </script>
+</body>
+</html>
